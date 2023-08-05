@@ -35,20 +35,42 @@
                         </svg>
                     </button>
                 </div>
-
             </div>
         </div>
     </div>
     <div class="w-full flex flex-row h-screen">
         <div class="flex-none custom-width border-right p-6 pt-16">
             <div class="h-4/5 pt-4">
-                menu atas
+                <ul>
+                    <li class="pb-4">
+                        <button class="text-sm text-green-500">Pembiayaan</button>
+                    </li>
+                    <li class="pb-4">
+                        <button class="text-sm text-neutral-400" disabled>Portfolio</button>
+                    </li>
+                    <li class="pb-4">
+                        <button class="text-sm text-neutral-400" disabled>Riwayat Pembiayaan</button>
+                    </li>
+                    <li class="pb-4">
+                        <button class="text-sm text-neutral-400" disabled>Pajak Penghasilan</button>
+                    </li>
+                    <li class="pb-4">
+                        <button class="text-sm text-neutral-400" disabled>Rekapitulasi Pembiayaan</button>
+                    </li>
+                </ul>
             </div>
             <div class="h-28">
-                menu agak bawah
+                <ul>
+                    <li class="pb-4">
+                        <button class="text-sm text-neutral-400" disabled>Bantuan</button>
+                    </li>
+                    <li class="pb-4">
+                        <button class="text-sm text-neutral-400" disabled>Hubungi Kami</button>
+                    </li>
+                </ul>
             </div>
             <div>
-                menu bawah
+                <p class="text-sm text-neutral-400">Copyright 2023 Restock.ID</p>
             </div>
         </div>
         <div class="grow p-6 pt-16 pr-0 pl-8 background-content">
@@ -113,7 +135,7 @@
             <div class="mt-12 drop-shadow-lg">
                 <div class="items-center justify-between text-sm leading-6 bg-white mr-10 custom-rounded">
                     <div class="h-12 border-bottom flex flex-row">
-                        <p class="font-bold text-md ml-8 pt-3 text-green-500 border-bottom-table">
+                        <p class="font-bold text-md ml-8 pt-3 text-green-500 border-bottom-table custom-cursor">
                             Angsuran
                         </p>
                         <p class="font-bold text-md ml-8 pt-3 text-neutral-400">
@@ -274,5 +296,9 @@
 
     #table tr {
         text-align: center;
+    }
+
+    .custom-cursor {
+        cursor: pointer;
     }
 </style>
