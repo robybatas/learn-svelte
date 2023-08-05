@@ -51,9 +51,9 @@
                 menu bawah
             </div>
         </div>
-        <div class="grow p-6 pt-16 background-content">
+        <div class="grow p-6 pt-16 pr-0 pl-8 background-content">
             <div class="flex flex-row">
-                <div class="w-1/2 mt-8">
+                <div class="w-1/2 mt-8 drop-shadow-lg">
                     <div class="items-center justify-between text-sm leading-6 bg-white mr-10 custom-rounded">
                         <div class="h-12 border-bottom">
                             <p class="font-bold text-lg ml-8 pt-3">
@@ -80,7 +80,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-1/2 mt-8">
+                <div class="w-1/2 mt-8 drop-shadow-lg">
                     <div class="items-center justify-between text-sm leading-6 bg-white mr-10 custom-rounded">
                         <div class="h-12 border-bottom">
                             <p class="font-bold text-lg ml-8 pt-3">
@@ -110,8 +110,123 @@
                     </div>
                 </div>
             </div>
-            <div>
-                table
+            <div class="mt-12 drop-shadow-lg">
+                <div class="items-center justify-between text-sm leading-6 bg-white mr-10 custom-rounded">
+                    <div class="h-12 border-bottom flex flex-row">
+                        <p class="font-bold text-md ml-8 pt-3 text-green-500 border-bottom-table">
+                            Angsuran
+                        </p>
+                        <p class="font-bold text-md ml-8 pt-3 text-neutral-400">
+                            Pengembalian
+                        </p>
+                    </div>
+                    <div class="custom-high">
+                        <p class="font-bold text-lg ml-8 pt-3 mb-2">
+                            Angsuran
+                        </p>
+                        <table id="table">
+                            <tr>
+                                <th>Jatuh Tempo</th>
+                                <th>Pokok</th>
+                                <th>Bunga</th>
+                                <th>Denda</th>
+                                <th>Total</th>
+                                <th>Kekurangan</th>
+                                <th>Status</th>
+                            </tr>
+                            <tr>
+                                <td>Kamis, 25 Mei 2023</td>
+                                <td>Rp 52.000.000</td>
+                                <td>1,5%</td>
+                                <td>Rp 2.400.000</td>
+                                <td>Rp 54.400.000</td>
+                                <td>Rp 4.400.000</td>
+                                <td>Menunggu</td>
+                            </tr>
+                            <tr>
+                                <td>Kamis, 25 Mei 2023</td>
+                                <td>Rp 52.000.000</td>
+                                <td>1,5%</td>
+                                <td>Rp 2.400.000</td>
+                                <td>Rp 54.400.000</td>
+                                <td>Rp 4.400.000</td>
+                                <td>Menunggu</td>
+                            </tr>
+                            <tr>
+                                <td>Kamis, 25 Mei 2023</td>
+                                <td>Rp 52.000.000</td>
+                                <td>1,5%</td>
+                                <td>Rp 2.400.000</td>
+                                <td>Rp 54.400.000</td>
+                                <td>Rp 4.400.000</td>
+                                <td>Menunggu</td>
+                            </tr>
+                            <tr>
+                                <td>Kamis, 25 Mei 2023</td>
+                                <td>Rp 52.000.000</td>
+                                <td>1,5%</td>
+                                <td>Rp 2.400.000</td>
+                                <td>Rp 54.400.000</td>
+                                <td>Rp 4.400.000</td>
+                                <td>Menunggu</td>
+                            </tr>
+                            <tr>
+                                <td>Kamis, 25 Mei 2023</td>
+                                <td>Rp 52.000.000</td>
+                                <td>1,5%</td>
+                                <td>Rp 2.400.000</td>
+                                <td>Rp 54.400.000</td>
+                                <td>Rp 4.400.000</td>
+                                <td>Menunggu</td>
+                            </tr>
+                            <tr>
+                                <td>Kamis, 25 Mei 2023</td>
+                                <td>Rp 52.000.000</td>
+                                <td>1,5%</td>
+                                <td>Rp 2.400.000</td>
+                                <td>Rp 54.400.000</td>
+                                <td>Rp 4.400.000</td>
+                                <td>Menunggu</td>
+                            </tr>
+                            <tr>
+                                <td>Kamis, 25 Mei 2023</td>
+                                <td>Rp 52.000.000</td>
+                                <td>1,5%</td>
+                                <td>Rp 2.400.000</td>
+                                <td>Rp 54.400.000</td>
+                                <td>Rp 4.400.000</td>
+                                <td>Menunggu</td>
+                            </tr>
+                            <tr>
+                                <td>Kamis, 25 Mei 2023</td>
+                                <td>Rp 52.000.000</td>
+                                <td>1,5%</td>
+                                <td>Rp 2.400.000</td>
+                                <td>Rp 54.400.000</td>
+                                <td>Rp 4.400.000</td>
+                                <td>Menunggu</td>
+                            </tr>
+                            <tr>
+                                <td>Kamis, 25 Mei 2023</td>
+                                <td>Rp 52.000.000</td>
+                                <td>1,5%</td>
+                                <td>Rp 2.400.000</td>
+                                <td>Rp 54.400.000</td>
+                                <td>Rp 4.400.000</td>
+                                <td>Menunggu</td>
+                            </tr>
+                            <tr>
+                                <td>Kamis, 25 Mei 2023</td>
+                                <td>Rp 52.000.000</td>
+                                <td>1,5%</td>
+                                <td>Rp 2.400.000</td>
+                                <td>Rp 54.400.000</td>
+                                <td>Rp 4.400.000</td>
+                                <td>Menunggu</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -120,6 +235,9 @@
 <style lang="postcss">
     .border-bottom {
         border-bottom: 2px solid #e9e9e9;
+    }
+    .border-bottom-table {
+        border-bottom: 2px solid rgb(34 197 94);
     }
     .border-right {
         border-right: 2px solid #e9e9e9;
@@ -132,5 +250,29 @@
     }
     .custom-rounded {
         border-radius: 20px;
+    }
+    .custom-high {
+        min-height: 62vh;
+    }
+    #table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    #table td, #table th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #table th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #f6f6f6;
+        color: rgb(75 85 99)
+    }
+
+    #table tr {
+        text-align: center;
     }
 </style>
