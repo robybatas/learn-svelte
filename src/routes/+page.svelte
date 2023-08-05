@@ -5,8 +5,8 @@
                 <img class="h-8" src="https://restock.id/assets/frontend/images/logos/restock-small.png" alt="logo">
             </div>
         </div>
-        <div class="grow pt-5 pl-5">
-            <h1 class="font-bold">
+        <div class="grow pt-4 pl-5">
+            <h1 class="font-semibold text-2xl">
                 Pembiayaan
             </h1>
         </div>
@@ -52,12 +52,62 @@
             </div>
         </div>
         <div class="grow p-6 pt-16 background-content">
-            <div>
-                <div>
-                    card
+            <div class="flex flex-row">
+                <div class="w-1/2 mt-8">
+                    <div class="items-center justify-between text-sm leading-6 bg-white mr-10 custom-rounded">
+                        <div class="h-12 border-bottom">
+                            <p class="font-bold text-lg ml-8 pt-3">
+                                Pembiayaan Anda
+                            </p>
+                        </div>
+                        <div class="flex flex-row h-20">
+                            <div class="w-1/2 border-right">
+                                <p class="ml-8 pt-4 text-sm">
+                                    Jumlah pembiayaan
+                                </p>
+                                <p class="ml-8 pt-1 text-lg">
+                                    Rp 200.000.000
+                                </p>
+                            </div>
+                            <div class="w-1/2">
+                                <p class="ml-8 pt-4 text-sm">
+                                    Total Pengembalian
+                                </p>
+                                <p class="ml-8 pt-1 text-lg text-orange-300">
+                                    Rp 234.000.000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    card
+                <div class="w-1/2 mt-8">
+                    <div class="items-center justify-between text-sm leading-6 bg-white mr-10 custom-rounded">
+                        <div class="h-12 border-bottom">
+                            <p class="font-bold text-lg ml-8 pt-3">
+                                Penerima Pembiayaan
+                            </p>
+                        </div>
+                        <div class="flex flex-row h-20">
+                            <div class="w-1/2 border-right">
+                                <p class="ml-8 pt-4 text-sm">
+                                    Penilaian
+                                </p>
+                                <div class="p-0 m-0">
+                                    <p class="ml-8 pt-1 text-lg">
+                                        AAA
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="w-1/2">
+                                <p class="ml-8 pt-4 text-sm">
+                                    Bunga
+                                </p>
+                                <p class="ml-8 pt-1 text-lg">
+                                    1,5%
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div>
@@ -79,5 +129,8 @@
     }
     .background-content {
         background-color: #f2f5f8;
+    }
+    .custom-rounded {
+        border-radius: 20px;
     }
 </style>
